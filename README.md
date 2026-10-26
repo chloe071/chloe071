@@ -10,8 +10,18 @@ A Python and Flask dashboard for exploring threat indicators, with filtering, su
 ### [IoT Security Assessment Framework](https://github.com/chloe071/iot-security-framework)
 A Python tool that discovers devices on a local network, checks common IoT ports (HTTP, SSH, MQTT, RTSP), and produces a scored JSON risk report with remediation guidance.
 
-### [Flask RBAC Project](https://github.com/chloe071/flask_rbac_project)
-A Flask application exploring role-based access control.
+### [Flask RBAC Cyber Simulation Suite](https://github.com/chloe071/flask_rbac_project)
+An incident-response simulation app with lead, analyst, and observer roles, real-time chat, scenario injects, and PDF reports. I reviewed it for access-control flaws, fixed a privilege-escalation bug and chat impersonation, and added regression tests.
+
+### [Secure Password Manager](https://github.com/chloe071/Secure-Password-Manager)
+A Flask vault that encrypts saved passwords with AES-256-GCM using a PBKDF2-derived key, with TOTP two-factor authentication, rate limiting, CSRF protection, and a strict Content-Security-Policy.
+
+### [AI Network Anomaly Detector](https://github.com/chloe071/ai-network-anomaly-detector)
+A SOC-style dashboard that scores simulated network flows with an Isolation Forest model trained on the NSL-KDD dataset, with CSV upload and a JSON API.
+
+## Other Work
+
+- [Java coursework (COP2250)](https://github.com/chloe071/JavaClass) — programs covering loops, arrays, and object-oriented design
 
 ## Technical Background
 
@@ -23,5 +33,5 @@ A Flask application exploring role-based access control.
 ## Current Focus
 
 - Strengthening testing and security controls in my projects
-- Adding CSRF protection and security headers to my Flask apps
+- Adding CSRF protection and security headers to my remaining Flask apps
 - Building practical cybersecurity and IT experience
